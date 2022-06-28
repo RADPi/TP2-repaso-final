@@ -1,0 +1,17 @@
+GET http://localhost:3999/repositories
+###
+
+GET http://localhost:3999/repositories/2
+###
+
+GET http://localhost:3999/repositories/99999
+###
+
+POST http://localhost:3999/repositories
+Content-Type: application/json
+{
+  "name": "Prueba3",
+  "visibility": false,
+  "user": 1
+}
+###
